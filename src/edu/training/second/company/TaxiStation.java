@@ -20,7 +20,7 @@ public class TaxiStation {
 
     @Override
     public String toString() {
-        StringBuffer sb = new StringBuffer("TaxiStation info:\n");
+        StringBuffer sb = new StringBuffer();
         carPark.stream().forEach(c -> sb.append(c.toString()+'\n'));
         return sb.toString();
     }

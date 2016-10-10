@@ -7,7 +7,7 @@ import java.util.Comparator;
 /**
  * Created by Roman on 01.10.2016.
  */
-public class CarsByFuelConsumptionComporator implements Comparator<Car> {
+public class CarsByFuelConsumptionComparator implements Comparator<Car> {
     @Override
     public int compare(Car o1, Car o2) {
         return Double.compare(o1.getFuelConsumption(), o2.getFuelConsumption());

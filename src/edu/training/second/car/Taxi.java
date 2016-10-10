@@ -1,7 +1,7 @@
 package edu.training.second.car;
 
-import edu.training.second.type.*;
 
+import edu.training.second.type.Service;
 
 /**
  * Created by Roman on 27.09.2016.
