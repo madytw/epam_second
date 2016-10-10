@@ -27,7 +27,8 @@ public class TaxiStationManagement {
     public Car findSuitableCar(TaxiStation taxiStation, int minCapacity, int maxCapacity, int minLoad, int maxLoad) {
         try {
             ArrayList<Car> cars = taxiStation.getCarPark();
-            Car suitableCar = cars.stream().filter((car) -> (car.getCapacity() >= minCapacity && car.getCapacity() <= maxCapacity) && (car.getLoad() >= minLoad && car.getLoad() <= maxLoad))
+            Car suitableCar = cars.stream().filter((car) -> (car.getCapacity() >= minCapacity && car.getCapacity() <= maxCapacity)
+                    && (car.getLoad() >= minLoad && car.getLoad() <= maxLoad))
                     .findFirst()
                     .get();
             return suitableCar;

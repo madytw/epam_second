@@ -1,0 +1,7 @@
+10.10.2016 19:26:09 [main] INFO  edu.training.second.creator.TaxiStationCreator - Reading file...
+10.10.2016 19:26:09 [main] ERROR edu.training.second.creator.TaxiStationCreator - edu.training.second.exception.CarParamsException: Invalid car params!
+10.10.2016 19:26:09 [main] ERROR edu.training.second.creator.TaxiStationCreator - edu.training.second.exception.CarParamsException: Invalid car params!
+10.10.2016 19:26:09 [main] ERROR edu.training.second.creator.TaxiStationCreator - edu.training.second.exception.NoSuchCarException: There is no such car: Minib
+10.10.2016 19:26:09 [main] ERROR edu.training.second.creator.TaxiStationCreator - edu.training.second.exception.CarParamsException: Invalid car params!
+10.10.2016 19:26:09 [main] ERROR edu.training.second.creator.TaxiStationCreator - edu.training.second.exception.CarParamsException: Invalid car params!
+10.10.2016 19:26:09 [main] FATAL edu.training.second.creator.TaxiStationCreator - java.nio.file.NoSuchFileException: data\car.txt
